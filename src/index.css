@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@keyframes moveX {
+  0% {
+    left: -10%;
+    transform: scale(1.1);
+  }
+
+  50% {
+    left: 0%;
+    transform: scale(1.1);
+  }
+  100% {
+    left: -10%;
+    transform: scale(1.1);
+  }
+}
