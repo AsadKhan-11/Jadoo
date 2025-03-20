@@ -6,8 +6,8 @@ import image3 from "../../assets/Plane2.png";
 const Hero = () => {
   return (
     <div
-      className={`relative pt-[150px] pb-[50px] bg-[url(/Decore.png),url(/Ellipse.png)]   bg-[100%_0%] bg-[auto] 
- bg-no-repeat lg:pb-[97px] `}
+      className={`relative pt-[150px] pb-[100px] bg-[url(/Decore.png),url(/Ellipse.png)]   bg-[100%_0%] bg-[auto] 
+ bg-no-repeat lg:pb-[105px] `}
     >
       <div className="max-w-[80rem] h-auto px-8 mx-auto flex flex-row justify-start items-center lg:px-16">
         <div className="">
@@ -45,7 +45,7 @@ const Hero = () => {
                     className="text-[14px] font-medium text-[#686D77] poppins-text lg:text-[17px]"
                   >
                     <span
-                      className="h-10 w-10 bg-[#DF6951] text-white font-medium rounded-[50%] inline-flex justify-center items-center mr-[12px] 
+                      className="h-10 w-10 bg-[#DF6951] text-white font-medium rounded-[50%] inline-flex justify-center items-center mr-[12px] shadow-[0_15px_30px_0_rgba(223,57,97,0.3)] 
                     lg:w-[52px] lg:h-[52px] lg:mr-[21px]"
                     >
                       <ion-icon name="play-sharp"></ion-icon>
