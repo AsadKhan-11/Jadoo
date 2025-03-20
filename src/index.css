@@ -1,17 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 @import "tailwindcss";
 
-@keyframes moveX {
-  0% {
-    left: -10%;
-    transform: scale(1.1);
+.volkhov-text {
+  font-family: "Volkhov", serif;
+}
+
+.poppins-text {
+  font-family: "Poppins", serif;
+}
+
+@layer utilities {
+  @keyframes moveX {
+    0% {
+      transform: translateX(-10%) scale(1.1);
+    }
+    50% {
+      transform: translateX(0%) scale(1);
+    }
+    100% {
+      transform: translateX(-10%) scale(1.1);
+    }
   }
 
-  50% {
-    left: 0%;
-    transform: scale(1.1);
+  .animate-moveX {
+    animation: moveX 5s infinite ease-in-out;
   }
-  100% {
-    left: -10%;
-    transform: scale(1.1);
+  .delay {
+    animation-delay: 1.5s;
   }
 }
