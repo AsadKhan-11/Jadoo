@@ -18,12 +18,16 @@ const Services = () => {
         </div>
 
         <div>
-          <div>
+          <div className="flex flex-col gap-10 flex-wrap">
             <div>
-              <div>
-                <img src={image1} alt="weather forecaster" />
-                <div> Calculated Weather </div>
-                <div>
+              <div className="service-cards">
+                <img
+                  src={image1}
+                  alt="weather forecaster"
+                  className="service-images"
+                />
+                <div className="service-card-header"> Calculated Weather </div>
+                <div className="service-card-text">
                   Built Wicket longer admire do barton vanity itself do in it.
                 </div>
               </div>
@@ -32,10 +36,10 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <div>
-                <img src={image2} alt="flights" />
-                <div> Best Flights </div>
-                <div>
+              <div className="service-cards">
+                <img src={image2} alt="flights" className="service-images" />
+                <div className="service-card-header"> Best Flights </div>
+                <div className="service-card-text">
                   Engrossed listening. Park gate sell they west hard for the.
                 </div>
               </div>
@@ -44,10 +48,10 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <div>
-                <img src={image3} alt="microphone" />
-                <div> Local Events </div>
-                <div>
+              <div className="service-cards">
+                <img src={image3} alt="microphone" className="service-images" />
+                <div className="service-card-header"> Local Events </div>
+                <div className="service-card-text">
                   Barton vanity itself do in it. Preferd to men it engrossed
                   listening.
                 </div>
@@ -57,10 +61,10 @@ const Services = () => {
               </div>
             </div>
             <div>
-              <div>
-                <img src={image4} alt="bolt image" />
-                <div> Customization </div>
-                <div>
+              <div className="service-cards">
+                <img src={image4} alt="bolt image" className="service-images" />
+                <div className="service-card-header"> Customization </div>
+                <div className="service-card-text">
                   We deliver outsourced aviation services for military customers
                 </div>
               </div>
