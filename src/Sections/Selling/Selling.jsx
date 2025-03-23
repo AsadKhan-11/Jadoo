@@ -16,7 +16,7 @@ const Selling = () => {
           </h2>
         </div>
 
-        <div className="">
+        <div className="pt-[60px]">
           <div className="h-[457px] flex gap-[35px] flex-wrap ">
             <div className="w-full ">
               <div className="selling-card-shadow rounded-3xl overflow-hidden  ">
@@ -29,12 +29,12 @@ const Selling = () => {
                 </div>
 
                 <div>
-                  <div>
-                    <div className="flex items-center justify-between">
+                  <div className="pl-[20px] pt-[27px] pb-[20px]   poppins-text">
+                    <div className="flex items-center justify-between  pb-[22px] pr-[26px] text-[16px]">
                       <div>Rome,Italy</div>
                       <div>$5,42K</div>
                     </div>
-                    <div>10 Days Trip</div>
+                    <div className="text-[14px]">10 Days Trip</div>
                   </div>
                 </div>
               </div>
