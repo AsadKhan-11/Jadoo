@@ -93,7 +93,7 @@
     0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0%);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
   .service-columns {
     width: 25%;
     padding: 0 15px;
