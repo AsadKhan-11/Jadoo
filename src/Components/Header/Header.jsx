@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = ({ subHeader, header, position }) => {
   return (
-    <div className={`${position} uppercase`}>
+    <div className={`${position} capitalize  `}>
       <div className="text-[#5E6282] text-[14px] font-semibold poppins-text mb-2.5 lg:text-lg  ">
         {subHeader}{" "}
       </div>
