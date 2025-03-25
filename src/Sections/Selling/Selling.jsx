@@ -3,24 +3,21 @@ import rome1 from "../../assets/rome1.jpg";
 import rome2 from "../../assets/rome2.jpg";
 import rome3 from "../../assets/rome3.jpg";
 import sellingData from "../../data/SellingData";
+import Header from "../../Components/Header/Header";
 
 const Selling = () => {
   return (
     <section className="py-[50px] lg:pb-[100px]">
       <div className="max-w-[80rem] h-auto px-12 mx-auto lg:px-16">
-        <div className="text-center">
-          <div className="text-[#5E6282] text-[14px] font-semibold poppins-text mb-2.5 lg:text-lg  ">
-            TOP SELLING
-          </div>
-          <h2 className="text-[#14183E] text-3xl font-bold volkhov-text lg:text-[50px]">
-            TOP DESTINATIONS
-          </h2>
-        </div>
-
+        <Header
+          subHeader={"Top Selling"}
+          header={"Top Destinations"}
+          position={"text-center"}
+        />
         <div className="pt-[60px]">
           <div className="flex gap-[35px] flex-wrap lg:mx-[-35px] lg:gap-0 justify-center  ">
             {sellingData.map((info, index) => (
-              <div className="w-full lg:w-[25%] lg:px-4 " key={index}>
+              <div className="w-full lg:w-[33.333%] lg:px-4 " key={index}>
                 <div className="selling-card-shadow rounded-3xl overflow-hidden hover:translate-y-[-10%] transition-all duration-[1s]">
                   <div className="h-[327px]">
                     <img

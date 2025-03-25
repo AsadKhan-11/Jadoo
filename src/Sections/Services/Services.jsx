@@ -4,20 +4,17 @@ import image2 from "../../assets/flights.svg";
 import image3 from "../../assets/mic.svg";
 import image4 from "../../assets/bolt.svg";
 import decore from "../../assets/decore-service.svg";
+import Header from "../../Components/Header/Header";
 
 const Services = () => {
   return (
     <section className="py-[50px]">
       <div className="max-w-[80rem] h-auto px-12 mx-auto  lg:px-16">
-        <div className="text-center">
-          <div className="text-[#5E6282] text-[14px] font-semibold poppins-text mb-2.5 lg:text-lg  ">
-            CATEGORY
-          </div>
-          <h2 className="text-[#14183E] text-3xl font-bold volkhov-text lg:text-[50px]">
-            WE OFFER BEST SERVICES
-          </h2>
-        </div>
-
+        <Header
+          subHeader={"CATEGORY"}
+          header={"We Offer Best Services"}
+          position={"text-center"}
+        />
         <div className="pt-8 lg:pt-16">
           <div className="flex flex-col gap-10 flex-wrap lg:flex-row lg:mx-[-30px] lg:gap-0">
             <div className="service-columns ">
