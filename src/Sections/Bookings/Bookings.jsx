@@ -11,7 +11,7 @@ const Bookings = () => {
   return (
     <section className="py-[50px] lg:pb-[100px]">
       <div className="max-w-[80rem] h-auto px-12 mx-auto w-full lg:px-16">
-        <div className="row flex flex-wrap w-full items-start">
+        <div className="row flex flex-wrap max-w-full items-start">
           <div className="col w-[50%] relative">
             <Header
               subHeader={"Easy and Fast"}
@@ -22,7 +22,7 @@ const Bookings = () => {
               <Steps
                 header={"Choose Destination"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque iusto dolor impedit!"
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. "
                 }
                 color={"F0BB1F"}
                 icon={step1}
@@ -30,7 +30,7 @@ const Bookings = () => {
               <Steps
                 header={"Make Payment"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque iusto dolor impedit!"
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. "
                 }
                 color={"F15A2B"}
                 icon={step2}
@@ -45,8 +45,8 @@ const Bookings = () => {
               />
             </div>
           </div>
-          <div className="col max-w-[485px] my-0 mx-auto relative ">
-            <div className="card selling-card-shadow poppins-text text-[#84829A] text-[16px] max-w-[370px] rounded-3xl py-[20px] px-[25px] bg-white z-10 relative ">
+          <div className="col max-w-[485px] my-10 mx-auto relative ">
+            <div className="card selling-card-shadow poppins-text text-[#84829A] text-[16px] max-w-[370px] rounded-3xl py-[20px] px-[25px] z-10 relative ">
               <div className=" max-h-[161px] overflow-hidden rounded-3xl mb-7">
                 <img
                   src={greece}
@@ -80,10 +80,10 @@ const Bookings = () => {
                 <ion-icon name="heart-outline"></ion-icon>
               </div>
             </div>
-            <div className="bg-[url(/stepsShadow.png) z-[-1] absolute top-[0%] left-[0%] h-[500px] w-[500px] bg-cover opacity-100 "></div>
+            <div className="bg-[url(/stepsShadow.png) z-[-1] absolute top-[0%] left-[0%] h-[350px] w-[350px] bg-cover opacity-100 "></div>
 
             <div
-              className="flex max-w-[260px] w-full py-[18px] px-5 bg-white selling-card-shadow rounded-[18px] absolute top-[0] left-[20%] z-50  overflow-hidden gap-2.5
+              className="flex max-w-[260px] w-full py-[18px] px-5 bg-white selling-card-shadow rounded-[18px] absolute bottom-[10%] left-[58%] z-50  overflow-hidden gap-2.5
             poppins-text "
             >
               <div className="h-[50px] w-[50px] rounded-full overflow-hidden">
@@ -96,7 +96,7 @@ const Bookings = () => {
 
               <div>
                 <div className="text-[#84829A] text-[14px] mb-1.5">Ongoing</div>
-                <div className="text-[#080809] text-lg mb-3">Trip to Rome</div>
+                <div className="text-[#080809] text-lg mb-3">Trip to rome</div>
                 <div className="text-[#080809] text-[14px] mb-3">
                   {" "}
                   <span className="text-[#8A79DF]">40%</span> completed

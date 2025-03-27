@@ -10,9 +10,9 @@ const Steps = ({ header, desc, icon, color }) => {
         <img src={icon} alt="Booking steps icon" />
       </div>
 
-      <div className="text-[#5e6282] text-[16px] poppins-text">
+      <div className="text-[#5e6282] text-[16px] poppins-text ">
         <div className="font-bold ">{header}</div>
-        <div className="leading-[124.5%] font-normal">{desc}</div>
+        <div className="leading-[124.5%] font-normal max-w-[327px]">{desc}</div>
       </div>
     </div>
   );
