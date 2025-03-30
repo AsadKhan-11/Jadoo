@@ -48,7 +48,14 @@ const Hero = () => {
                       className="h-10 w-10 bg-[#DF6951] text-white font-medium rounded-[50%] inline-flex justify-center items-center mr-[12px] shadow-[0_15px_30px_0_rgba(223,57,97,0.3)] 
                     lg:w-[52px] lg:h-[52px] lg:mr-[21px]"
                     >
-                      <ion-icon name="play-sharp"></ion-icon>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        className="size-5"
+                      >
+                        <path d="M6.3 2.84A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.27l9.344-5.891a1.5 1.5 0 0 0 0-2.538L6.3 2.841Z" />
+                      </svg>
                     </span>
                     Play demo
                   </a>
