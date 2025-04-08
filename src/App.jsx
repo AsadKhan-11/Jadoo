@@ -5,6 +5,7 @@ import Hero from "./Sections/Hero/Hero";
 import Services from "./Sections/Services/Services";
 import Selling from "./Sections/Selling/Selling";
 import Bookings from "./Sections/Bookings/Bookings";
+import Testimonials from "./Sections/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Selling />
       <Bookings />
+      <Testimonials />
     </div>
   );
 }
