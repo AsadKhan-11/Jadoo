@@ -148,7 +148,7 @@ const Bookings = () => {
             <div className="bg-[url(/stepsShadow.png) z-[-1] absolute top-[0%] left-[0%] h-[350px] w-[350px] bg-cover opacity-100 "></div>
 
             <div
-              className="flex max-w-[260px] w-full py-[18px] px-5 bg-white selling-card-shadow rounded-[18px] absolute bottom-[11%] left-[58%] z-50  overflow-hidden gap-2.5
+              className="flex max-w-[260px] w-full py-[18px] px-5 bg-white selling-card-shadow rounded-[18px] absolute bottom-[11%] left-[58%] z-20  overflow-hidden gap-2.5
             poppins-text "
             >
               <div className="h-[50px] w-[50px] rounded-full overflow-hidden">
