@@ -41,7 +41,7 @@ const Testimonials = () => {
   return (
     <section className="py-[50px]">
       <div className="max-w-[80rem] h-auto px-12 mx-auto  lg:px-16">
-        <div className="flex flex-col relative lg:flex-row lg:gap-20 ">
+        <div className="flex flex-col relative lg:flex-row  ">
           <div className="w-full lg:w-1/2">
             <Header
               subHeader={"TESTIMONIALS"}
@@ -76,7 +76,7 @@ const Testimonials = () => {
             </div>
 
             {/* Arrows */}
-            <div className="flex flex-col items-center mt-6 gap-2">
+            <div className="flex flex-col items-center mt-6 gap-14">
               <button
                 className="text-black hover:text-yellow-300 text-2xl "
                 onClick={prev}
