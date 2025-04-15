@@ -108,6 +108,30 @@
   width: 16px;
   font-color: #84829a;
 }
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 140px;
+  height: 100px;
+  padding: 0 20px;
+}
+
+.testimonial-logo {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  flex: none;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.testimonial-logo:hover {
+  filter: grayscale(0);
+}
+
 @media (min-width: 1024px) {
   .service-columns {
     width: 25%;
