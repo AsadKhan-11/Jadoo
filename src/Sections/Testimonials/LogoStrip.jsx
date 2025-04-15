@@ -6,9 +6,9 @@ import company4 from "../../assets/company4.png";
 import company5 from "../../assets/company5.png";
 const LogoStrip = () => {
   return (
-    <div className="w-full overflow-auto mt-32 flex justify-start ">
-      <div className="flex gap-4 w-max items-center lg:gap-18 ">
-        <div className="testimonial-container  hover:shadow-lg">
+    <div className="w-full overflow-auto mt-32 flex justify-start  ">
+      <div className="flex gap-4 w-max items-center lg:gap-18  my-6.5 ">
+        <div className="testimonial-container  ">
           <img
             src={company1}
             alt="Company logo"
@@ -22,21 +22,21 @@ const LogoStrip = () => {
             className=" testimonial-logo"
           />
         </div>
-        <div className="testimonial-container hover:shadow-lg">
+        <div className="testimonial-container ">
           <img
             src={company3}
             alt="Company logo"
             className=" testimonial-logo"
           />
         </div>
-        <div className="testimonial-container  hover:shadow-lg">
+        <div className="testimonial-container  ">
           <img
             src={company4}
             alt="Company logo"
             className=" testimonial-logo"
           />
         </div>
-        <div className="testimonial-container  hover:shadow-lg">
+        <div className="testimonial-container  ">
           <img src={company5} alt="Company logo" className="testimonial-logo" />{" "}
         </div>
       </div>

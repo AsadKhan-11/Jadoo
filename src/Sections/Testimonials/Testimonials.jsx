@@ -61,7 +61,7 @@ const Testimonials = () => {
                 </div>
 
                 {/* Front Card */}
-                <div className="relative z-10 bg-white shadow-lg rounded-2xl p-9 max-w-[402px]  ">
+                <div className="relative z-10 bg-white selling-card-shadow rounded-2xl p-9 max-w-[402px]  ">
                   <img
                     src={front.img}
                     alt="testimonial image"
@@ -78,13 +78,13 @@ const Testimonials = () => {
             {/* Arrows */}
             <div className="flex flex-col items-center mt-6 gap-14">
               <button
-                className="text-black hover:text-yellow-300 text-2xl "
+                className="text-black hover:text-yellow-300 text-2xl cursor-pointer"
                 onClick={prev}
               >
                 <FaChevronUp />
               </button>
               <button
-                className="text-black hover:text-yellow-300 text-2xl"
+                className="text-black hover:text-yellow-300 text-2xl cursor-pointer"
                 onClick={next}
               >
                 <FaChevronDown />
