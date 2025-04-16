@@ -6,6 +6,7 @@ import Services from "./Sections/Services/Services";
 import Selling from "./Sections/Selling/Selling";
 import Bookings from "./Sections/Bookings/Bookings";
 import Testimonials from "./Sections/Testimonials/Testimonials";
+import Subscribe from "./Sections/Subscribe/Subscribe";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Selling />
       <Bookings />
       <Testimonials />
+      <Subscribe />
     </div>
   );
 }

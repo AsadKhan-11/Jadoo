@@ -142,6 +142,10 @@
   filter: grayscale(100%);
 }
 
+.sub-input::placeholder {
+  color: black;
+}
+
 @media (min-width: 1024px) {
   .service-columns {
     width: 25%;
