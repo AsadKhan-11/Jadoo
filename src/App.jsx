@@ -7,6 +7,7 @@ import Selling from "./Sections/Selling/Selling";
 import Bookings from "./Sections/Bookings/Bookings";
 import Testimonials from "./Sections/Testimonials/Testimonials";
 import Subscribe from "./Sections/Subscribe/Subscribe";
+import Footer from "./Sections/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Bookings />
       <Testimonials />
       <Subscribe />
+      <Footer />
     </div>
   );
 }
