@@ -11,7 +11,7 @@ import Footer from "./Sections/Footer/Footer";
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <Navbar />
       <Hero />
       <Services />

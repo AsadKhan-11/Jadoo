@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col gap-6 flex-wrap md:flex-row md:justify-between md:px-12 ">
           <div className="flex flex-col gap-2">
             <h2 className="text-[44px] poppins-text text-[#181E4B] ">Jadoo.</h2>
-            <div className="w-[207px] text-[13px] text-[#080809]">
+            <div className="w-[207px] text-[13px] text-[#5E6282]">
               Book your trip in minute, get full Control for much longer.
             </div>
           </div>

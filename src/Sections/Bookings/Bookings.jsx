@@ -11,8 +11,8 @@ const Bookings = () => {
   return (
     <section className="py-[50px] lg:pb-[100px]">
       <div className="max-w-[80rem] h-auto px-12 mx-auto w-full lg:px-16">
-        <div className="row flex flex-wrap max-w-full items-start">
-          <div className="col w-[50%] relative">
+        <div className="flex-col flex flex-wrap max-w-full items-start md:flex-row">
+          <div className="flex flex-col w-full lg:w-1/2 relative">
             <Header
               subHeader={"Easy and Fast"}
               header={"Book Your next trip in 3 easy steps"}
@@ -148,7 +148,7 @@ const Bookings = () => {
             <div className="bg-[url(/stepsShadow.png) z-[-1] absolute top-[0%] left-[0%] h-[350px] w-[350px] bg-cover opacity-100 "></div>
 
             <div
-              className="flex max-w-[260px] w-full py-[18px] px-5 bg-white selling-card-shadow rounded-[18px] absolute bottom-[11%] left-[58%] z-20  overflow-hidden gap-2.5
+              className="max-w-[260px] hidden w-full py-[18px] px-5 bg-white selling-card-shadow rounded-[18px] absolute bottom-[11%] left-[58%] z-20  overflow-hidden gap-2.5 md:flex 
             poppins-text "
             >
               <div className="h-[50px] w-[50px] rounded-full overflow-hidden">
